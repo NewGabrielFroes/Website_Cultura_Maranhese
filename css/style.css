@@ -7,6 +7,35 @@ header {
     padding: 20px 0;
 }
 
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: #ECBC3F;
+    font-weight: bolder; 
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+p strong {
+    font-weight: bold;
+    color: #ECBC3F;
+}
+
+section {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 8%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
 .container {
     display: flex;
 	justify-content: space-around;
@@ -38,35 +67,20 @@ nav a:hover {
 }
 
 .historia {
-    width: 100%;
-    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/centrohistorico.jpg);
     background-position: center;
     background-size: cover;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 8%;
-    box-sizing: border-box;
 }
 
-.historia h2{
+.jeronimo {
+    width: 15%;
     text-align: center;
-    font-size: 40px;
-    color: #ECBC3F;
-    font-weight: bolder; 
 }
 
-.historia p {
-    text-align: center;
-    font-size: 1.2rem;
-    color: white;
-    line-height: 25px;
-    margin-bottom: 20px;
-}
-
-.historia p strong {
-    font-weight: bold;
-    color: #ECBC3F;
+.gastronomia {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/gastronomia.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
