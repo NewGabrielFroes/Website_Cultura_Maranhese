@@ -129,11 +129,9 @@ nav a:hover {
     text-align: center;
 }
 
-.lista-destinos h2 {
-    text-align: center;
-    font-size: 40px;
-    color: #ECBC3F;
-    font-weight: bolder; 
+.conteudo-outros-destinos {
+	width: 640px;
+	margin: 0 auto;
 }
 
 .lista-destinos {
@@ -141,6 +139,15 @@ nav a:hover {
 	display: inline-block;
 	vertical-align: top;
 }
+
+.outros-destinos h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #ECBC3F;
+    font-weight: bolder; 
+}
+
+
 
 .lista-destinos li {
 	line-height: 1.5;
@@ -150,8 +157,8 @@ nav a:hover {
 	font-weight: bold;
 }
 
-.lista-destinos img {
-	width: 60%;
+.turismo {
+	width: 30%;
 	opacity: 1;
 	transition: 400ms;
 	box-shadow: 10px 10px 10px 0 #000000;
