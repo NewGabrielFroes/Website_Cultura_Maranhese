@@ -94,6 +94,24 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.img-slider .navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn {
+    background: rgba(255, 255, 255, 0.5);
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
@@ -105,3 +123,40 @@ footer p {
     font-size: 22px;
     margin-top: 20px;
 }
+
+@media (max-width: 750px) {
+    .img-slider {
+        width: 400px;
+        height: 250px;
+        
+    }
+
+    .img-slider .slide img {
+        max-height: 250px;
+    }
+
+    .img-slider .slide .info {
+        padding: 10px 25px;
+    }
+
+    .img-slider .slide .info h2 {
+        font-size: 30px;
+    }
+
+    .img-slider .slide .info p {
+        width: 80%;
+        font-size: 13px;
+    }
+
+    .img-slider .navigation {
+        bottom: 15px;
+    }
+
+    .img-slider .navigation .btn {
+        width: 8px;
+        height: 8px;
+        margin: 6px;
+    }
+
+}
+
