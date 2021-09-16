@@ -1,0 +1,107 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+header {
+    background-color: #DCF2FF;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.container img {
+    width: 30%;
+}
+
+
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3F528D;
+    font-size: 22px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+nav a:hover {
+    color: #A74C3C;
+}
+
+
+.container-slide {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCF2FF
+}
+
+.img-slider {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+}
+
+.img-slider .slide {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.img-slider .slide img {
+    z-index: 1;
+    width: 100%;
+    max-height: 480px;
+    border-radius: 5px;
+}
+
+.img-slider .slide .info {
+    position: absolute;
+    top: 0;
+    padding: 15px 30px;
+}
+
+.img-slider .slide .info h2{
+    color: #A74C3C;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.img-slider .slide .info p {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 16px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #DCF2FF;
+}
+
+footer p {
+    color: #A74C3C;
+    font-size: 22px;
+    margin-top: 20px;
+}
