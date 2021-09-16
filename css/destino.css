@@ -1,9 +1,9 @@
 body {
     font-family: 'Urbanist', sans-serif;
+    background-color: #DCF2FF;
 }
 
 header {
-    background-color: #DCF2FF;
     padding: 20px 0;
 }
 
@@ -123,6 +123,42 @@ nav a:hover {
 
 .img-slider .navigation .btn.active {
     background: #A74C3C;
+}
+
+.video-destinos {
+    text-align: center;
+}
+
+.lista-destinos h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #ECBC3F;
+    font-weight: bolder; 
+}
+
+.lista-destinos {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.lista-destinos li {
+	line-height: 1.5;
+}
+
+.lista-destinos li {
+	font-weight: bold;
+}
+
+.lista-destinos img {
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
 }
 
 footer {
