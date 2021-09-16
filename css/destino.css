@@ -38,6 +38,7 @@ nav a:hover {
     color: #A74C3C;
 }
 
+/* estilo inspirado no vídeo https://www.youtube.com/watch?v=bW8X-tt5AZQ*/
 
 .container-slide {
     margin: 0;
@@ -61,6 +62,14 @@ nav a:hover {
     z-index: 1;
     position: absolute;
     width: 100%;
+    clip-path: circle(0% at 0 50%);
+}
+
+.img-slider .slide.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+
 }
 
 .img-slider .slide img {
@@ -110,6 +119,10 @@ nav a:hover {
     margin: 10px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.img-slider .navigation .btn.active {
+    background: #A74C3C;
 }
 
 footer {
