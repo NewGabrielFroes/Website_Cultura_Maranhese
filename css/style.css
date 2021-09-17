@@ -1,13 +1,13 @@
 body {
     font-family: 'Urbanist', sans-serif;
+    background-color: #DCF2FF;
 }
 
 header {
-    background-color: #DCF2FF;
     padding: 20px 0;
 }
 
-h2{
+h1, h2{
     text-align: center;
     font-size: 40px;
     color: #ECBC3F;
@@ -91,6 +91,53 @@ nav a:hover {
 
 .cultura p:nth-child(5) {
    margin-bottom: 0;
+}
+
+.formulario {
+    text-align: center;
+    width: 100%;
+    margin: 0px 0;
+}
+
+
+form {
+	display: inline-block;
+    width: 300px;
+}
+
+form label, form legend {
+	display:block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+	display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:50%;
+	padding: 15px 0;
+	background: #3F538E;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #ECBC3F;
+	transform: scale(1.2);
 }
 
 footer {
