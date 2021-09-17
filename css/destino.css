@@ -129,6 +129,10 @@ nav a:hover {
     text-align: center;
 }
 
+.video-destinos iframe {
+    border-radius: 5px;
+}
+
 .conteudo-outros-destinos {
 	width: 640px;
 	margin: 0 auto;
@@ -138,10 +142,6 @@ nav a:hover {
     padding: 3em 0;
 }
 
-.conteudo-outros-destinos {
-	width: 640px;
-	margin: 0 auto;
-}
 
 .outros-destinos h2 {
     text-align: center;
@@ -221,6 +221,16 @@ footer p {
         bottom: 15px;
     }
 
+    .video-destinos iframe {
+        width: 400px;
+        height: 250px;
+    }
+    
+    
+    .conteudo-outros-destinos {
+        width: 440px;
+        margin: 0 auto;
+    }
 
 }
 
