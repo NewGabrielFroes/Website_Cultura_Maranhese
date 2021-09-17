@@ -18,8 +18,6 @@ header {
     width: 30%;
 }
 
-
-
 nav li {
     display: inline;
     margin-right: 15px;
@@ -38,7 +36,7 @@ nav a:hover {
     color: #A74C3C;
 }
 
-/* estilo inspirado no vídeo https://www.youtube.com/watch?v=bW8X-tt5AZQ*/
+/* estilo inspirado no vídeo https://www.youtube.com/watch?v=bW8X-tt5AZQ */
 
 .container-slide {
     margin: 0;
@@ -125,6 +123,8 @@ nav a:hover {
     background: #A74C3C;
 }
 
+/*=================================*/
+
 .video-destinos {
     text-align: center;
 }
@@ -192,6 +192,8 @@ footer p {
     font-size: 22px;
     margin-top: 20px;
 }
+
+/*  estilo inspirado no vídeo https://www.youtube.com/watch?v=bW8X-tt5AZQ */
 
 @media (max-width: 750px) {
     .img-slider {
