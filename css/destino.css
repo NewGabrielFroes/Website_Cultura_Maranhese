@@ -134,10 +134,13 @@ nav a:hover {
 	margin: 0 auto;
 }
 
-.lista-destinos {
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
+.outros-destinos {
+    padding: 3em 0;
+}
+
+.conteudo-outros-destinos {
+	width: 640px;
+	margin: 0 auto;
 }
 
 .outros-destinos h2 {
@@ -148,17 +151,27 @@ nav a:hover {
 }
 
 
+.lista-outros-destinos {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
 
-.lista-destinos li {
+.lista-outros-destinos li {
 	line-height: 1.5;
 }
 
-.lista-destinos li {
+.lista-outros-destinos li {
 	font-weight: bold;
 }
 
+
+.lista-outros-destinos li:before {
+	content: "🟊";
+}
+
 .turismo {
-	width: 30%;
+	width: 50%;
 	opacity: 1;
 	transition: 400ms;
 	box-shadow: 10px 10px 10px 0 #000000;
