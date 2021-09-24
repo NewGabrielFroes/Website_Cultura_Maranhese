@@ -25,7 +25,7 @@
         </div>
     </header>
     <main class="formulario">
-        <form>
+        <form action="/umarotaqualquer" method="POST">
             <label for="nomesobrenome">Nome completo</label>
             <input type="text" id="nomesobrenome" class="input-padrao" required>
 
@@ -40,11 +40,11 @@
 
             <fieldset>
                 <legend>Qual assunto você está discutindo?</legend>
-                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked> Destinos</label>
+                <label for="radio-destinos"><input type="radio" name="assunto" value="Destinos" id="radio-destinos" checked> Destinos</label>
                 
-                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Cultura</label>
+                <label for="radio-cultura"><input type="radio" name="assunto" value="Cultura" id="radio-cultura"> Cultura</label>
                 
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> Culinária</label>
+                <label for="radio-culinaria"><input type="radio" name="assunto" value="Culinária" id="radio-culinaria"> Culinária</label>
             </fieldset>
 
             <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>

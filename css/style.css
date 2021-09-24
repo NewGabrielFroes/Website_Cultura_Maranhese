@@ -152,6 +152,8 @@ footer p {
     margin-top: 20px;
 }
 
+
+
 /* deixando imagem responsiva*/
 
 
@@ -159,5 +161,52 @@ footer p {
     .jeronimo {
         width: 50%;
         text-align: center;
+    }
+}
+
+
+@media (max-width:480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container img {
+        width: 50%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gastronomia iframe {
+        width: 100%;
+    }
+
+    .bandeira {
+        width: 50%;
+    }
+}
+
+@media (max-width:257px) {
+    h1, h2{
+        text-align: center;
+        font-size: 25px;
+        color: #ECBC3F;
+        font-weight: bolder; 
+    }
+    
+    p {
+        text-align: center;
+        font-size: 1rem;
+        color: white;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .bandeira {
+        width: 50%;
     }
 }
