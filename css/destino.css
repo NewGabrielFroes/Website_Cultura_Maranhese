@@ -254,6 +254,11 @@ footer p {
 }
 
 @media (max-width: 420px) {
+
+    .container-slide {
+        height: initial;
+    }
+
     .img-slider {
         width: 320px;
         height: 200px;
