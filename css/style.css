@@ -94,15 +94,15 @@ nav a:hover {
 }
 
 .formulario {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    width: 100%;
-    margin: 0px 0;
 }
 
 
 form {
 	display: inline-block;
-    width: 300px;
+    width: 30%;
 }
 
 form label, form legend {
@@ -112,10 +112,12 @@ form label, form legend {
 }
 
 .input-padrao {
+    box-sizing: border-box;
 	display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 100%;
+    overflow: hidden;
 }
 
 .checkbox {
@@ -123,7 +125,7 @@ form label, form legend {
 }
 
 .enviar {
-	width:50%;
+	width:100%;
 	padding: 15px 0;
 	background: #3F538E;
 	color: white;
@@ -162,10 +164,14 @@ footer p {
         width: 50%;
         text-align: center;
     }
+
+    form {
+        width: 40%;
+    }
 }
 
 
-@media (max-width:480px) {
+@media (max-width:500px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -183,6 +189,10 @@ footer p {
 
     .gastronomia iframe {
         width: 100%;
+    }
+
+    form {
+        width: 60%;
     }
 
     .bandeira {
