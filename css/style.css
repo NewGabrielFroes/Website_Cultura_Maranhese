@@ -159,19 +159,19 @@ footer p {
 /* deixando imagem responsiva*/
 
 
-@media (max-width:700px) {
+@media (max-width:900px) {
     .jeronimo {
         width: 50%;
         text-align: center;
     }
 
     form {
-        width: 40%;
+        width: 50%;
     }
 }
 
 
-@media (max-width:500px) {
+@media (max-width:520px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -200,7 +200,7 @@ footer p {
     }
 }
 
-@media (max-width:257px) {
+@media (max-width:280px) {
     h1, h2{
         text-align: center;
         font-size: 25px;
@@ -218,5 +218,9 @@ footer p {
 
     .bandeira {
         width: 50%;
+    }
+
+    form {
+        width: 80%;
     }
 }
