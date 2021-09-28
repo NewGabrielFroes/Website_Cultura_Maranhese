@@ -99,6 +99,9 @@ nav a:hover {
     text-align: center;
 }
 
+.titulo-cadastro {
+    margin-bottom: 20px;
+}
 
 form {
 	display: inline-block;
@@ -157,7 +160,6 @@ footer p {
 
 
 /* deixando site responsivo */
-/* preciso fazer a acessebilidade */
 
 @media (max-width:900px) {
     .jeronimo {
