@@ -36,6 +36,12 @@ section {
     text-align: center;
 }
 
+.skip-to-content {
+    position: absolute;
+    top: 5px;
+    left: -999px;
+}
+
 .container {
     display: flex;
 	justify-content: space-around;
@@ -101,6 +107,10 @@ nav a:hover {
 
 .titulo-cadastro {
     margin-bottom: 20px;
+}
+
+.titulo-cadastro ~ p {
+    color: black;
 }
 
 form {
