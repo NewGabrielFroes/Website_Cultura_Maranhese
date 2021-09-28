@@ -47,6 +47,7 @@ section {
     text-decoration: none;
 }
 
+/*botão aparece com o tab*/
 .skip-to-content:focus {
     left: 5px;
 }
