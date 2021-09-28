@@ -36,7 +36,6 @@ section {
     text-align: center;
 }
 
-/* butão de pular conteúdo */
 .skip-to-content {
     position: absolute;
     top: 5px;
@@ -46,7 +45,6 @@ section {
     padding: 8px;
     text-decoration: none;
 }
-
 
 .skip-to-content:focus {
     left: 5px;
