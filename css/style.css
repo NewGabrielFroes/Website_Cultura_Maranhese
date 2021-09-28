@@ -36,6 +36,7 @@ section {
     text-align: center;
 }
 
+/* butão de pular conteúdo */
 .skip-to-content {
     position: absolute;
     top: 5px;
