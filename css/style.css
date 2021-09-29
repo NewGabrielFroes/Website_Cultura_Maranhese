@@ -40,8 +40,9 @@ section {
     position: absolute;
     top: 5px;
     left: -999px;
-    border: 2px solid blue;
+    border: 2px solid #A74C3C;
     background-color: white;
+    color: #3F538E;
     padding: 8px;
     text-decoration: none;
 }
