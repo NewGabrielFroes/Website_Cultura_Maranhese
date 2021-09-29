@@ -7,6 +7,21 @@ header {
     padding: 20px 0;
 }
 
+.skip-to-content {
+    position: absolute;
+    top: 5px;
+    left: -999px;
+    border: 2px solid #A74C3C;
+    background-color: white;
+    color: #3F538E;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.skip-to-content:focus {
+    left: 5px;
+}
+
 .container {
     display: flex;
 	justify-content: space-around;
