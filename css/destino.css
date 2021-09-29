@@ -208,7 +208,6 @@ footer p {
 }
 
 /*  estilo inspirado no vídeo https://www.youtube.com/watch?v=bW8X-tt5AZQ */
-
 @media (max-width: 750px) {
     .container-slide {
         height: initial;
