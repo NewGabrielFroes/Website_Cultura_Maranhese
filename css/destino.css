@@ -234,6 +234,23 @@ footer p {
     }
 }
 
+@media (max-width:500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container img {
+        width: 50%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media (max-width:480px) {
   
     .container-slide {
@@ -297,12 +314,6 @@ footer p {
     .container img {
         width: 50%;
     }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 @media (max-width: 420px) {
@@ -360,19 +371,5 @@ footer p {
         justify-content: center;
     }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container img {
-        width: 50%;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
 }
