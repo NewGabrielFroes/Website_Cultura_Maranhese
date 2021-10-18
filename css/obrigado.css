@@ -11,3 +11,9 @@ p {
     color: #ECBC3F;
     font-size: 25px;
 }
+
+a {
+    color: #A74C3C;
+    font-size: 25px;
+    text-decoration: none;
+}
