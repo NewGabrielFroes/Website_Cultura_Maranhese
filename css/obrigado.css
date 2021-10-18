@@ -1,0 +1,13 @@
+body {
+    background-color: #DCF2FF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #ECBC3F;
+    font-size: 25px;
+}
